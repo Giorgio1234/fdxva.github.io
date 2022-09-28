@@ -84,4 +84,8 @@
 
   initParallax();
 })(); // End of use strict
-
+$(document).ready(function(){
+  $("body").scrollspy({
+      target: "#mainNav"
+  }) 
+});
