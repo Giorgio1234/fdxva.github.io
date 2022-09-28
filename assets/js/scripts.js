@@ -1,1 +1,5 @@
-$('body').scrollspy({ target: '#navbar-example' })
+$(document).ready(function(){
+    $("body").scrollspy({
+        target: "#mainNav"
+    }) 
+});
