@@ -10,3 +10,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.mainDiv {
+  position: relative;
+  text-align: center;
+}
+
+#mainHeader {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
